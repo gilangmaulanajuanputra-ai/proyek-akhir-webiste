@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daftar Menu - LEAK GEPREK</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="container nav-content">
+      <a href="index.html" class="brand">
+        <img src="img/logo.png" alt="Logo Leak Geprek" class="brand-logo">
+        <span>LEAK GEPREK</span>
+      </a>
+      <nav class="nav-links">
+        <a href="index.html">Beranda</a>
+        <a href="halaman menu.html" class="active">Menu</a>
+        <a href="tentang kami.html">Tentang Kami</a>
+        <a href="index.html#faq">FAQ</a>
+      </nav>
+      <a href="https://wa.me/6281234567890" target="_blank" class="btn btn-primary btn-sm">Pesan via WhatsApp ↗</a>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="container">
+      <span class="section-subtitle">DAFTAR MENU LENGKAP</span>
+      <h1>Pilih Paket Geprek Favoritmu</h1>
+      <p class="section-desc">Semua paket sudah termasuk lalapan segar. Bebas pilih level pedas dari Level 1 sampai Level 5.</p>
+
+      <!-- FILTER BUTTONS -->
+      <div class="filter-bar">
+        <button class="filter-btn active" data-filter="all">Semua Menu</button>
+        <button class="filter-btn" data-filter="merah">Sambal Merah</button>
+        <button class="filter-btn" data-filter="hijau">Sambal Hijau</button>
+        <button class="filter-btn" data-filter="spesial">Saus Leleh & Paket</button>
+      </div>
+
+      <div class="menu-grid" id="menuList">
+        <!-- Item 1 -->
+        <div class="menu-card" data-category="merah">
+          <div class="card-img-box">
+            <span class="card-badge">HEMAT</span>
+            <img src="img/hero-geprek.jpg" alt="Ayam Geprek Ori">
+          </div>
+          <div class="card-body">
+            <h3>Ayam Geprek Original (Tanpa Nasi)</h3>
+            <p>1 potong ayam crispy renyah digeprek dengan sambal merah dadakan.</p>
+            <div class="card-footer">
+              <span class="price">Rp 10.000</span>
+              <button class="btn btn-primary btn-sm order-btn" data-menu="Ayam Geprek Original" data-price="10000">Pesan ↗</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="menu-card" data-category="hijau">
+          <div class="card-img-box">
+            <span class="card-badge badge-green">FAVORIT</span>
+            <img src="img/menu-ijo.png" alt="Ayam Geprek Sambal Hijau">
+          </div>
+          <div class="card-body">
+            <h3>Paket Geprek Sambal Hijau + Nasi</h3>
+            <p>Nasi putih hangat + ayam geprek sambal cabai hijau gurih pedas.</p>
+            <div class="card-footer">
+              <span class="price">Rp 13.000</span>
+              <button class="btn btn-primary btn-sm order-btn" data-menu="Paket Geprek Sambal Hijau" data-price="13000">Pesan ↗</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="menu-card" data-category="spesial">
+          <div class="card-img-box">
+            <span class="card-badge badge-yellow">BEST SELLER</span>
+            <img src="img/menu-leleh.png" alt="Geprek Saus Leleh">
+          </div>
+          <div class="card-body">
+            <h3>Geprek Saus Leleh + Nasi Daun Jeruk</h3>
+            <p>Perpaduan gurihnya nasi daun jeruk, ayam geprek pedas, dan saus keju leleh.</p>
+            <div class="card-footer">
+              <span class="price">Rp 15.000</span>
+              <button class="btn btn-primary btn-sm order-btn" data-menu="Geprek Saus Leleh + Nasi Daun Jeruk" data-price="15000">Pesan ↗</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 4 -->
+        <div class="menu-card" data-category="merah">
+          <div class="card-img-box">
+            <span class="card-badge">JUMBO SAMBAL</span>
+            <img src="img/menu-melimpah.png" alt="Geprek Sambal Melimpah">
+          </div>
+          <div class="card-body">
+            <h3>Paket Geprek Sambal Melimpah</h3>
+            <p>Khusus pecinta pedas! Porsi sambal dua kali lipat lebih banyak + nasi + es teh.</p>
+            <div class="card-footer">
+              <span class="price">Rp 14.000</span>
+              <button class="btn btn-primary btn-sm order-btn" data-menu="Paket Geprek Sambal Melimpah" data-price="14000">Pesan ↗</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <strong>LEAK GEPREK</strong>
+        <p>Ayam Geprek Sambal Ulek Melimpah • Buka Setiap Hari 10.00 - 22.00 WITA</p>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">Beranda</a>
+        <a href="halaman menu.html">Menu</a>
+        <a href="tentang kami.html">Tentang Kami</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
