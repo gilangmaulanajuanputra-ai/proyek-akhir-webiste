@@ -1,11 +1,254 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LEAK GEPREK - Pedasnya Nampol, Manisnya Pas</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="container nav-content">
+      <a href="index.html" class="brand">
+        <img src="img/logo.png" alt="Logo Leak Geprek" class="brand-logo">
+        <span>LEAK GEPREK</span>
+      </a>
+      <nav class="nav-links">
+        <a href="index.html" class="active">Beranda</a>
+        <a href="halaman menu.html">Menu</a>
+        <a href="tentang kami.html">Tentang Kami</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <a href="https://wa.me/6281234567890?text=Halo%20Leak%20Geprek,%20saya%20mau%20pesan!" target="_blank" class="btn btn-primary btn-sm">Pesan via WhatsApp ↗</a>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <span class="badge-pill"> AYAM GEPREK KHAS BALI</span>
+        <h1>Pedasnya nampol.<br>Manisnya pas.</h1>
+        <p>Ayam geprek crispy dengan sambal ulek dadakan yang pedasnya bikin melek, dipadukan bumbu manis gurih yang bikin nagih.</p>
+        <div class="hero-buttons">
+          <a href="halaman menu.html" class="btn btn-primary">Lihat Menu ↓</a>
+          <a href="https://wa.me/6281234567890" target="_blank" class="btn btn-outline">Pesan di WhatsApp ↗</a>
+        </div>
+        <small class="hero-note">*Tersedia pilihan level pedas dari ramah lidah sampai pedas kesurupan.</small>
+      </div>
+
+      <div class="hero-image-wrapper">
+        <img src="img/hero-geprek.jpg" alt="Ayam Geprek Sambal Merah" class="hero-img">
+        <div class="price-sticker">
+          <span>MULAI DARI</span>
+          <strong>10 RIBU</strong>
+        </div>
+        <div class="caption-tag">Sambal ulek segar setiap hari</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RUNNING BANNER MERAH -->
+  <div class="promo-strip">
+    <div class="container strip-items">
+      <span> Sambal Ulek Dadakan</span>
+      <span>•</span>
+      <span> Ayam Crispy Renyah Tahan Lama</span>
+      <span>•</span>
+      <span> Harga Ramah Kantong Pelajar</span>
+      <span>•</span>
+      <span> Porsi Sambal Melimpah</span>
+    </div>
+  </div>
+
+  <!-- MENU UNGGULAN -->
+  <section class="section">
+    <div class="container">
+      <span class="section-subtitle">MENU FAVORIT</span>
+      <h2>Pilihan pedas, sama-sama nagih.</h2>
+      <p class="section-desc">Pilih varian sambal dan paket favoritmu, semua digeprek langsung saat dipesan.</p>
+
+      <div class="menu-grid">
+        <!-- Card 1 -->
+        <div class="menu-card">
+          <div class="card-img-box">
+            <span class="card-badge">TERLARIS</span>
+            <img src="img/hero-geprek.jpg" alt="Ayam Geprek Sambal Merah">
+          </div>
+          <div class="card-body">
+            <h3>Geprek Sambal Merah</h3>
+            <p>Ayam crispy digeprek dengan sambal bawang cabai rawit merah super nampol.</p>
+            <div class="card-footer">
+              <span class="price">Rp 10.000</span>
+              <button class="btn btn-primary btn-sm order-btn" data-menu="Geprek Sambal Merah" data-price="10000">Pesan Menu ↗</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="menu-card">
+          <div class="card-img-box">
+            <span class="card-badge badge-green">PEDAS SEGAR</span>
+            <img src="img/menu-ijo.png" alt="Ayam Geprek Sambal Hijau">
+          </div>
+          <div class="card-body">
+            <h3>Geprek Sambal Hijau</h3>
+            <p>Perpaduan cabai hijau segar dan tomat yang gurih pedas dengan aroma khas.</p>
+            <div class="card-footer">
+              <span class="price">Rp 12.000</span>
+              <button class="btn btn-primary btn-sm order-btn" data-menu="Geprek Sambal Hijau" data-price="12000">Pesan Menu ↗</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="menu-card">
+          <div class="card-img-box">
+            <span class="card-badge badge-yellow">CREAMY</span>
+            <img src="img/menu-leleh.png" alt="Ayam Geprek Saus Leleh">
+          </div>
+          <div class="card-body">
+            <h3>Geprek Saus Leleh + Nasi Daun Jeruk</h3>
+            <p>Ayam geprek disiram saus keju lumer melimpah lengkap dengan nasi daun jeruk wangi.</p>
+            <div class="card-footer">
+              <span class="price">Rp 15.000</span>
+              <button class="btn btn-primary btn-sm order-btn" data-menu="Geprek Saus Leleh + Nasi Daun Jeruk" data-price="15000">Pesan Menu ↗</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="menu-card">
+          <div class="card-img-box">
+            <span class="card-badge">KOMPLIT</span>
+            <img src="img/menu-melimpah.png" alt="Paket Geprek Sambal Melimpah">
+          </div>
+          <div class="card-body">
+            <h3>Paket Geprek Sambal Melimpah</h3>
+            <p>Nasi hangat + ayam geprek porsi jumbo dengan ekstra sambal dan es teh manis.</p>
+            <div class="card-footer">
+              <span class="price">Rp 14.000</span>
+              <button class="btn btn-primary btn-sm order-btn" data-menu="Paket Geprek Sambal Melimpah" data-price="14000">Pesan Menu ↗</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="center-action">
+        <a href="halaman menu.html" class="btn btn-outline">Lihat Semua Menu Lengkap →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- HIGHLIGHT SECTION MERAH -->
+  <section class="highlight-red">
+    <div class="container highlight-grid">
+      <div class="highlight-img-box">
+        <img src="img/tentang-ulek.png" alt="Proses Ulek Sambal Leak Geprek">
+      </div>
+      <div class="highlight-text">
+        <span class="subtitle-light">KENAPA LEAK GEPREK?</span>
+        <h2>Bukan sekadar pedas.<br>Ini pedas yang khas.</h2>
+        <p>Sambal kami diulek langsung di cobek batu begitu kamu pesan. Menggunakan cabai segar pilihan tanpa bahan pengawet sehingga rasa pedas dan gurihnya benar-benar menyatu dengan ayam crispy.</p>
+        <div class="highlight-features">
+          <div>
+            <strong>01. Diulek Dadakan</strong>
+            <span>Bukan sambal stok kemarin</span>
+          </div>
+          <div>
+            <strong>02. Porsi Melimpah</strong>
+            <span>Sambal & ayam ukuran puas</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CARA PESAN -->
+  <section class="section">
+    <div class="container">
+      <span class="section-subtitle">CARA ORDER</span>
+      <h2>Lagi lapar? Gampang pesannya.</h2>
+      <div class="steps-grid">
+        <div class="step-card">
+          <span class="step-num">01</span>
+          <h3>Pilih menu</h3>
+          <p>Tentukan paket geprek, varian sambal, dan level kepedasan sesuai seleramu.</p>
+        </div>
+        <div class="step-card">
+          <span class="step-num">02</span>
+          <h3>Chat & konfirmasi</h3>
+          <p>Klik tombol pesan untuk terhubung langsung ke WhatsApp admin kami.</p>
+        </div>
+        <div class="step-card">
+          <span class="step-num">03</span>
+          <h3>Ambil di outlet</h3>
+          <p>Pesanan langsung digeprek hangat dan siap diambil atau diantar kurir lokal.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ SECTION -->
+  <section class="section faq-section" id="faq">
+    <div class="container faq-grid">
+      <div class="faq-left">
+        <span class="section-subtitle">BANTUAN & INFO</span>
+        <h2>Mau tanya dulu?</h2>
+        <p>Beberapa pertanyaan yang paling sering ditanyakan pelanggan sebelum memesan.</p>
+      </div>
+      <div class="faq-right">
+        <div class="faq-item">
+          <button class="faq-question">Sambalnya apa saja yang tersedia? <span>+</span></button>
+          <div class="faq-answer">
+            <p>Kami menyediakan Sambal Bawang Merah (original), Sambal Hijau segar, dan tambahan Saus Keju Leleh.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Bisa pesan tanpa datang langsung? <span>+</span></button>
+          <div class="faq-answer">
+            <p>Bisa banget! Kamu tinggal klik tombol "Pesan via WhatsApp" di website ini, pilih menu, dan pesanan bisa diambil tanpa antre atau dikirim.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Kalau request tidak terlalu pedas bisa? <span>+</span></button>
+          <div class="faq-answer">
+            <p>Tentu bisa. Karena sambal kami ulek dadakan, kamu bebas request jumlah cabai mulai dari 1 cabai (tidak pedas) sampai level ekstra pedas.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BANNER KUNING -->
+  <section class="container">
+    <div class="cta-banner">
+      <div>
+        <span class="cta-tag">SIAP MAKAN ENAK?</span>
+        <h2>Geprek dulu, lanjut lagi.</h2>
+        <p>Perut kenyang, aktivitas lancar. Yuk pesan ayam geprek favoritmu sekarang!</p>
+      </div>
+      <a href="https://wa.me/6281234567890" target="_blank" class="btn btn-primary">Pesan di WhatsApp ↗</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <strong>LEAK GEPREK</strong>
+        <p>Ayam Geprek Sambal Ulek Melimpah • Buka Setiap Hari 10.00 - 22.00 WITA</p>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">Beranda</a>
+        <a href="halaman menu.html">Menu</a>
+        <a href="tentang kami.html">Tentang Kami</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
 </body>
 </html>
